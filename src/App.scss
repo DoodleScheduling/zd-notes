@@ -1,0 +1,57 @@
+.App-logo {
+  position: absolute;
+  top: 0;
+  height: 80px;
+  pointer-events: none;
+}
+
+.Requester-name {
+  color: black;
+}
+
+.User-name {
+  color: black;
+}
+
+div.note {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.note p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.note span {
+  font-size: 0.7em;
+  color: grey;
+}
+
+ul.notes-list {
+  padding: 0;
+  margin-bottom: 1em;
+  list-style-type: none;
+}
+
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+footer a {
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.App-link {
+  color: black;
+  position: absolute;
+  bottom: 0;
+}

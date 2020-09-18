@@ -1,0 +1,26 @@
+{
+  "name": "User Notes",
+  "author": {
+    "name": "Mathias V. Nielsen",
+    "email": "mn@cloudhuset.dk",
+    "url": "https://cloudhuset.dk"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/index.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0",
+  "parameters": [
+    {
+      "name": "token",
+      "type": "text",
+      "secure": true,
+      "required": true
+    }
+  ],
+  "domainWhitelist": ["ambassador-stg.doodle-test.com"]
+}
